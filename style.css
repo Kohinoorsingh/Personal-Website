@@ -1,0 +1,52 @@
+body{
+text-align: center;
+background-color: teal;
+}
+#Apps{
+    width: 100%;
+    height: 800px;;
+}
+#Games{
+    width: 100px;
+    height: 500px;;
+}
+img{
+    transition: transform 2s;
+}
+img:hover{
+    transform:scale(0.9)
+}
+.menu{
+    background: white;
+    width: 100%;
+    top: 0px;
+    margin-top: 0px;
+    position: fixed;
+    z-index: 10;
+}
+a{
+    color: crimson;
+    text-shadow: 2px 2px gainsboro ;
+    text-decoration: goldenrod;
+}
+.links{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 25px;
+    font-family: monospace;
+    font-size: 25px;
+}
+.links:hover {
+    font-size: 30px;
+text-decoration: underline;
+}
+#contact{
+    background-color: darkturquoise;
+}
+#contact iframe{
+    width: 100%;
+}
+.contact1 a{
+    color: khaki;
+    text-shadow: black;
+}
